@@ -12,10 +12,6 @@ function love.load()
     gameFont = lg.newFont(40)
 end
 
-function love.update(dt)
-    
-end
-
 function love.draw()
     lg.setColor(1, 0, 0)
     lg.circle("fill", target.x, target.y, target.radius)
